@@ -1,0 +1,274 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* ------------- Global -------------*/
+.container{
+  width: 80%; /*responsive*/
+  margin: auto; /*auto - move to middle*/
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.square{
+  padding: 35px 15px 15px 15px;
+  background: #DFDFDF;
+  color: #0D0D0D;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* ------------ Header -----------*/
+header{
+  background: #f4f4f4;
+  color: #9F9F9F;
+  padding: 30px 0 30px 0;
+  min-height: 70px;
+ border-bottom: #D90101 2px solid;
+}
+
+header a{
+  color: #7C7C7C;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; /*Top Right Botton Left*/
+}
+
+header nav{
+  float: right;
+}
+
+header nav li{
+  padding: 50px 20px 0 20px; /*Top Right Botton Left*/
+}
+
+header nav a:hover{
+  color: #D90101;
+}
+
+header .current a{
+  color: #020202;
+  font-weight: bold;
+}
+
+header #truck_logo{
+  padding-bottom: 10;
+  width: 80px;
+}
+
+header #toyota_logo{
+  padding-top: 30px;
+  width: 140px;
+}
+header #branding{
+  margin: 0;
+  float: left;
+}
+
+/* ------------Showcase ---------- */
+
+#showcase{
+  min-height: 520px;
+  background: url('../images/forklift.png') no-repeat 0 -50px;
+  text-align: center;
+  background-position: center;
+}
+
+#showcase h1{
+  margin: 0;
+  padding: 150px 0 0 300px;
+  font-size: 60px;
+  color: #0D0D0D;
+  letter-spacing: 2px;
+
+}
+
+#showcase p{
+  margin: 0;
+  padding: 0 0 0 320px;
+  font-size: 22px;
+  color: #060606;
+}
+
+/* ------------ boxes ---------- */
+
+#boxes{
+  margin-top: 70px;
+}
+
+#boxes .box{
+  text-align: center;
+  float: left;
+  width: 30%;
+  margin: 20px 0 0 30px;
+}
+
+#boxes h1{
+  text-align: center;
+  color: #080808;
+  font-size: 55px;
+}
+
+#boxes .box img{
+  width: 100px;
+}
+
+.box h3{
+  font-size: 25px;
+}
+
+.box p{
+  font-size: 20px;
+}
+
+/*----------- Members--------------*/
+#members_1{
+  margin-top: 70px;
+}
+
+#members_2{
+  margin-top: 300px;
+}
+
+#members_1 h1{
+  text-align: center;
+  color: #080808;
+  font-size: 50px;
+}
+
+#members_1 img, #members_2 img{
+  width: 10%;
+}
+
+#proj_members_1{
+  margin-top: 50px;
+}
+
+#proj_leader .member_box{
+text-align: center;
+width: 32%;
+padding-left: 400px;
+}
+
+
+#proj_members_1 .member_box{
+  float: left;
+  width: 32%;
+  text-align: center;
+}
+
+#proj_members_2 .member_box{
+  float: left;
+  width: 32%;
+  text-align: center;
+}
+
+#members_1 h3, #members_2 h3{
+  font-size: 20px;
+}
+
+#group_image img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer_members{
+  padding: 20px;
+  margin-top: 100px;
+  color: #ffffff;
+  background-color: #A4A3A3;
+  text-align: center;
+}
+
+/* ---------- document ------------ */
+#document_main {
+  margin-top: 70px;
+}
+
+#doc_boxes_1, #doc_boxes_2{
+  margin-top: 60px;
+}
+#doc_boxes_1 .box{
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin: 20px 0 0 0;
+}
+
+#doc_boxes_2 .box{
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin: 50px 0 0 80px;
+}
+#doc_boxes_1 a, #doc_boxes_2 a{
+    font-size: 22px;
+    color: #080808;
+    text-decoration: none;
+}
+
+#document_main h1{
+  text-align: center;
+  color: #080808;
+  font-size: 50px;
+}
+
+#document_main .box img{
+  width: 100px;
+
+}
+
+
+
+/* ----------- Video ---------------*/
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 500px;
+}
+
+
+/* ----------- footer ------------ */
+#footer_rest{
+  padding: 20px;
+  margin-top: 700px;
+  color: #ffffff;
+  background-color: #A4A3A3;
+  text-align: center;
+}
+
+#footer_video{
+  padding: 20px;
+  margin-top: 100px;
+  color: #ffffff;
+  background-color: #A4A3A3;
+  text-align: center;
+}
+
+/* ------------- Media Queries----------*/
+
+@media (max-width: 1000px){
+  header #branding,
+  header nav,
+  header nav li{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+}
